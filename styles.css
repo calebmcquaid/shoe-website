@@ -1,0 +1,55 @@
+.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    position: fixed;
+}
+
+.footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    position: fixed;
+}
+
+.top-bar {
+    float: left;
+    margin: 10px;
+    padding-top: 20px;
+    padding: 10px;
+}
+
+.top-other {
+    float: right;
+    margin: 10px;
+    padding-top: 20px;
+    padding: 10px;
+}
+
+.bottom-bar {
+  float: left;
+  margin: 7px;
+  padding-top: 20px;
+  padding: 7px;
+}
+
+.bottom-other {
+  float: right;
+  margin: 5px;
+  padding-top: 20px;
+  padding: 5px;
+}
+
+.section-1 {
+  clear: both;
+}
+
+header {
+  background-color: white;
+}
+
+footer {
+  background-color: white;
+}
