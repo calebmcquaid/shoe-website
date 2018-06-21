@@ -1,10 +1,4 @@
-.header {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: white;
-    position: fixed;
-}
+
 
 .footer {
     list-style-type: none;
@@ -14,18 +8,23 @@
     position: fixed;
 }
 
-.top-bar {
-    float: left;
+.nav-left {
     margin: 10px;
     padding-top: 20px;
     padding: 10px;
+    list-style-type: none;
+    text-align: left;
+    display: inline-block;
 }
 
-.top-other {
-    float: right;
+.nav-right {
     margin: 10px;
     padding-top: 20px;
     padding: 10px;
+    list-style-type: none;
+    text-align: right;
+    display: inline-block;
+    float: right;
 }
 
 .bottom-bar {
@@ -42,14 +41,40 @@
   padding: 5px;
 }
 
-.section-1 {
-  clear: both;
-}
-
 header {
   background-color: white;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  margin-bottom: 20px;
 }
 
 footer {
   background-color: white;
+}
+
+/*.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  margin-bottom: 40px;
+}*/
+
+li {
+  display: inline-block;
+  padding: 5px;
+
+}
+.nav-image {
+  width: 100%;
+}
+
+.nav-logo {
+  width: 60px;
+}
+
+.section-1 {
+  display: inline-block;
 }
