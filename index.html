@@ -6,6 +6,8 @@
   <title>Shoe Website</title>
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Amiko" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 
 </head>
 
@@ -27,6 +29,7 @@
         <li><a href="#">Help</a></li>
         <li><a href="#">My Account</a></li>
         <li><a href="#">Shopping Cart</a></li>
+        <span>0</span>
       </ul>
     </nav>
   </header>
@@ -41,22 +44,26 @@
       <h5>Spring/Summer 2017</h5>
       <p>I'm going to put a bunch of text here <a class="reviews-link" href="Reviews">Read the Reviews</a></p>
       <h3>$120.00</h3>
-      <button class="btn">Buy Now</button>
+      <button id="target">Buy Now</button>
     </div>
   </section>
   <section-2>
     <nav>
-      <li>Product Details</li>
-      <li>Size and Fit</li>
+      <li class="details"><a class="noLinkSelector" href="#">Product Details</a></li>
+      <li class="fit"><a class="noLinkSelector" href="#">Size and Fit</a></li>
       <li id="nav-reviews"><a href="#">Reviews</a></li>
     </nav>
-    <div>
+    <div class="productDetails">
       <h3>Exciting Topic</h3>
       <p>Content here</p>
       <h4>Exciting Topic</h4>
       <p>Content here</p>
+    </div>
+    <div class="sizeFit">
       <h3>Find Your Shoe Size and Fit</h3>
       <p>Content here</p>
+    </div>
+    <div class="reviews">
       <h3>What Our Customers Are Saying!</h3>
       <p id="last-p">Don't take our word for it!</p>
     </div>
@@ -101,6 +108,7 @@
       </nav>
     </footer>
   </div>
+  <script src="index.js"></script>
 </body>
 
 </html>
